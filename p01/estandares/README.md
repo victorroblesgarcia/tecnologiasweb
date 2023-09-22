@@ -1,0 +1,1 @@
+Readme de la carpeta ESTANDARES de la practica 1 de la materia tecnologias web.
