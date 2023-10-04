@@ -55,7 +55,7 @@
             echo "<p>No se encontró el producto.</p>";
         }
 
-        // Cerrar la conexión
+        // Cerrar conexion
         $link->close();
     }
     ?>
