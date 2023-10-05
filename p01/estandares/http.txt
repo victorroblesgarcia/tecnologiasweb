@@ -1,1 +1,1 @@
-Otro texto de ejemplo para la practica 1 de Tecnologias Web.
+Otro texto http de ejemplo para la practica 1 de Tecnologias Web.
