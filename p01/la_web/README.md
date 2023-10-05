@@ -1,1 +1,1 @@
-Readme de la carpeta la_web de la practica 1 de la materia tecnologias web. xD
+Readme de la carpeta la_web de la practica 01 de la materia tecnologias web. xD
