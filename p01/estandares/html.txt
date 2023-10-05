@@ -1,1 +1,1 @@
-Texto de ejemplo para la practica 1 de Servicios Web.
+Texto html de ejemplo para la practica 1 de Servicios Web.
