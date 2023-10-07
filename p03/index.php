@@ -5,6 +5,7 @@
     <title>Práctica 3</title>
 </head>
 <body>
+
     <h2>Ejercicio 1</h2>
     <p>Determina cuál de las siguientes variables son válidas y explica por qué:</p>
     <p>$_myvar,  $_7var,  myvar,  $myvar,  $var7,  $_element1, $house*5</p>
@@ -31,10 +32,10 @@
         echo '$house*5 debido a que tiene un simbolo de operacion al declarar la operacion';
     ?>
      <h2>Inciso 2</h2>
-    <p>2. Proporcionar los valores de $a, $b, $c como sigue: <br>
-    $a = “ManejadorSQL”; <br>
-    $b = 'MySQL’; <br>
-    $c = &$a;<br>
+    <p>2. Proporcionar los valores de $a, $b, $c como sigue: <br/>
+    $a = “ManejadorSQL”; <br/>
+    $b = 'MySQL’; <br/>
+    $c = &amp;$a;<br/>
     </p>
 
    <?php
@@ -71,9 +72,9 @@
     unset($a,$b,$c);
    ?>
     <h2>Inciso 3</h2>
-    <p>Muestra el contenido de cada variable inmediatamente después de cada asignación, <br>
-    verificar la evolución del tipo de estas variables (imprime todos los componentes de los <br>
-    arreglo): <br></p>
+    <p>Muestra el contenido de cada variable inmediatamente después de cada asignación, <br />
+    verificar la evolución del tipo de estas variables (imprime todos los componentes de los <br />
+    arreglo): <br /></p>
 
     <?php
     
@@ -103,7 +104,7 @@
     ?>
 
 <h2>Inciso 4</h2>
-    <p>Lee y muestra los valores de las variables del ejercicio anterior, pero ahora con la ayuda de <br>
+    <p>Lee y muestra los valores de las variables del ejercicio anterior, pero ahora con la ayuda de <br />
     la matriz $GLOBALS o del modificador global de PHP.</p>
     <?php
     function prueba(){
@@ -121,11 +122,11 @@ prueba();
     ?>
 
 <h2>Inciso 5</h2>
-    <p>Dar el valor de las variables $a, $b, $c al final del siguiente script: <br>
-    $a = “7 personas”; <br>
-    $b = (integer) $a; <br>
-    $a = “9E3”; <br>
-    $c = (double) $a; <br></p>
+    <p>Dar el valor de las variables $a, $b, $c al final del siguiente script: <br />
+    $a = “7 personas”; <br/>
+    $b = (integer) $a; <br/>
+    $a = “9E3”; <br/>
+    $c = (double) $a; <br/></p>
 
     <?php
     $a = "7 personas";
@@ -139,8 +140,9 @@ prueba();
     ?>
      <h2>Inciso 6</h2>
     <p>
-    Dar y comprobar el valor booleano de las variables $a, $b, $c, $d, $e y $f y muéstralas <br>
-    usando la función var_dump(<'datos'>). <br>
+    Dar y comprobar el valor booleano de las variables $a, $b, $c, $d, $e y $f y muéstralas <br />
+    usando la función var_dump(&lt;'datos'>). <br />
+
     </p>
 
     <?php
@@ -181,10 +183,10 @@ prueba();
     echo 'Valor de $f: '.$f.'<br>';
     ?>
     <h2>Inciso 7</h2>
-    <p>Usando la variable predefinida $_SERVER, determina lo siguiente: <br>
-    a. La versión de Apache y PHP, <br>
-    b. El nombre del sistema operativo (servidor), <br>
-    c. El idioma del navegador (cliente). <br></p>
+    <p>Usando la variable predefinida $_SERVER, determina lo siguiente: <br />
+    a. La versión de Apache y PHP, <br />
+    b. El nombre del sistema operativo (servidor), <br />
+    c. El idioma del navegador (cliente). <br /></p>
 
     <?php
     echo 'Version de Apache y PHP: ';
@@ -194,5 +196,9 @@ prueba();
     echo '<br>Idioma del navegador (cliente): ';
     echo $_SERVER['HTTP_ACCEPT_LANGUAGE'];
     ?>
+    <p> 
+    <a href="http://validator.w3.org/check?uri=referer"><img 
+      src="http://www.w3.org/Icons/valid-xhtml11" alt="Válido XHTML 1.1" altura="31" ancho="88" /></a> 
+  </p>
 </body>
 </html>
